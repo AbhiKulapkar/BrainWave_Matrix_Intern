@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list_flutter/constants/colors.dart';
+import 'package:to_do_list_flutter/widgets/todo_item.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -26,6 +27,13 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
+      ToDoItem(),
+      ToDoItem(),
+      ToDoItem(),
+      ToDoItem(),
+      ToDoItem(),
+      ToDoItem(),
+      ToDoItem(),
     );
   }
 
